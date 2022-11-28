@@ -1,0 +1,42 @@
+body
+{
+    background: aliceblue;
+}
+form
+{
+    margin-top: 45px;
+    display: grid;
+    
+}
+input
+{
+    font-size: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border: solid 5px black;
+}
+label
+{
+    font-size: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+button
+{
+    font-size: 30px;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 2%;
+    margin-bottom: 30%;
+}
+tr, td
+{
+    border: solid 5px red;
+}
+h1
+{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 325%;
+}
+

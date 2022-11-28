@@ -1,0 +1,126 @@
+*{
+    font-family: David;
+}
+
+body{
+    background-image: url("img3/backr.png");
+    
+}
+
+#all_page{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game_select{
+    display: flex;
+    flex-direction: column;
+    margin-top: 14%;
+    align-items: center;
+}
+
+.game_selection{
+    border:solid 2px rgb(255, 255, 255);
+    border-radius: 30px;
+    height: 100px;
+    width: 250px;
+    font-size: 50px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+#div_new_game{
+display: flex;
+    justify-content: center;
+}
+
+#div_new_game button{
+    border-radius: 20px;
+    background: green;
+    width: 130px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: solid 1px white;
+}
+
+#id_img{
+    display: flex;
+    justify-content: center;
+}
+
+#id_img img {
+    height: 650px;
+}
+
+
+
+#div_first_boxs_letters{
+    width: 50%;
+    height: 76px;
+    top: 50px;
+    display: flex;
+    position: absolute;
+    top: 350px;
+    right: 18%;
+    justify-content: center;
+}
+#div_boxs_letters{
+    display:flex;
+    justify-content: center;
+    background:rgba(255, 255, 255, 0.274);
+    border-radius:20px;
+}
+
+.box_letters{
+    background: rgba(0, 0, 0, 0.349);
+    border: solid 1px white;
+    width: 44px;
+    border-radius: 14px;
+    height: 55px;
+    display: inline-block;
+    margin: 10px;
+    font-size: 50px;
+    align-items: flex-end;
+    text-align: center;
+    color: rgb(251, 255, 255);
+
+}
+
+
+#all_letters{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50vw;
+    margin-right:25px ;
+}
+
+.hebrew_letters{
+    justify-content: center;
+    margin: 5px;
+    width: 4vw;
+    height: 2.5vw;
+    font-size: 28px;
+    color: rgb(255 255 255);
+    background-color: rgb(92 92 92);
+    border-radius: 34%;
+    border: dotted 2px rgb(255 255 255);
+}
+.hebrew_letters_used{
+    color: rgb(92 92 92);
+    background-color: rgb(199, 184, 184);
+}
+ h4 {
+    color: rgb(255, 0, 0);
+    font-size:50px;
+    font-family: sans-serif;
+}
+h2{
+    font-size:50px;
+    color: rgb(9, 255, 0);   
+    font-family: sans-serif;
+}
