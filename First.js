@@ -3,6 +3,9 @@ function AddToObj() {
     let getu = localStorage.getItem("users");
     getu = JSON.parse(getu)
     console.log(getu);
+    if(!getu){
+        getu = { }
+    }
         
     let user =null;
     let pass =null;
@@ -25,7 +28,7 @@ if(!(user==""||pass=="")){
     console.log(getu);
 
     localStorage.setItem("users",JSON.stringify(getu));
-    localStorage.setItem("currentUser", JSON.stringify(newUser))
+    localStorage.setItem("currentUser", JSON.stringify(newUser));
     alert("חשבונך נוצר - אשר כדי להמשיך !");
     location.href = "./index.html"
     }
